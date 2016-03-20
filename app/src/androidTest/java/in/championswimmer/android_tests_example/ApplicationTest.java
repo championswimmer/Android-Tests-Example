@@ -6,8 +6,11 @@ import android.support.test.InstrumentationRegistry;
 import android.support.test.runner.AndroidJUnit4;
 import android.test.InstrumentationTestCase;
 
+import junit.framework.Assert;
+
 import org.junit.After;
 import org.junit.Before;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 
 /**
@@ -29,6 +32,13 @@ public class ApplicationTest {
 
     @After
     public void tearDown() throws Exception {
+
+    }
+
+    @Test
+    public void appTest() throws Exception {
+        // Dummy
+        Assert.assertEquals(1,1);
 
     }
 
